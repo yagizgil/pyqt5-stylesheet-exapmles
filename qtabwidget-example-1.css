@@ -10,12 +10,7 @@ QTabBar::tab {
    font-size: 15px;
    border-style: none;
 }
-QTabBar::tear {
-}
-QTabBar::scroller {
-}
-QTabBar::tab:hover {
-}
+
 QTabBar::tab:selected {
    color: white;
    height: 32px;
@@ -24,6 +19,7 @@ QTabBar::tab:selected {
    border-right: 1px solid #2ed573;
    border-left: 1px solid #2ed573;
 }
+
 QTabBar::tab:!selected {
    width: 190px;
    height: 32px;
